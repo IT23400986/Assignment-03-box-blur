@@ -1,0 +1,168 @@
+=== Serial Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/serial.jpg
+Image loaded: 612x408, 3 channel(s)
+Kernel size: 5x5 (box blur - uniform averaging)
+
+Applying box blur...
+
+=== Results ===
+Execution time: 0.094138 seconds
+Pixels processed: 249696
+Throughput: 2.65 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_1t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 1
+
+Processing...
+
+=== Results ===
+Time: 0.054005 seconds
+Pixels: 249696
+Speed: 4.62 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_2t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 2
+
+Processing...
+
+=== Results ===
+Time: 0.027717 seconds
+Pixels: 249696
+Speed: 9.01 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_3t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 3
+
+Processing...
+
+=== Results ===
+Time: 0.022928 seconds
+Pixels: 249696
+Speed: 10.89 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_4t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 4
+
+Processing...
+
+=== Results ===
+Time: 0.017363 seconds
+Pixels: 249696
+Speed: 14.38 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_5t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 5
+
+Processing...
+
+=== Results ===
+Time: 0.034138 seconds
+Pixels: 249696
+Speed: 7.31 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_6t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 6
+
+Processing...
+
+=== Results ===
+Time: 0.038025 seconds
+Pixels: 249696
+Speed: 6.57 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_7t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 7
+
+Processing...
+
+=== Results ===
+Time: 0.032057 seconds
+Pixels: 249696
+Speed: 7.79 Mpixels/sec
+=== OpenMP Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/openmp_8t.jpg
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+Threads: 8
+
+Processing...
+
+=== Results ===
+Time: 0.033096 seconds
+Pixels: 249696
+Speed: 7.54 Mpixels/sec
+=== MPI Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/mpi_1p.jpg
+Processes: 1
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+
+Processing...
+
+=== Results ===
+Time: 0.076599 seconds
+Pixels: 249696
+Speed: 3.26 Mpixels/sec
+=== MPI Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/mpi_2p.jpg
+Processes: 2
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+
+Processing...
+
+=== Results ===
+Time: 0.040886 seconds
+Pixels: 249696
+Speed: 6.11 Mpixels/sec
+=== MPI Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/mpi_3p.jpg
+Processes: 3
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+
+Processing...
+
+=== Results ===
+Time: 0.030948 seconds
+Pixels: 249696
+Speed: 8.07 Mpixels/sec
+=== MPI Box Blur ===
+Input: data/sample_images/input.jpg
+Output: results/benchmark_outputs/mpi_4p.jpg
+Processes: 4
+Loaded: 612x408, 3 channel(s)
+Kernel: 5x5 box blur
+
+Processing...
+
+=== Results ===
+Time: 0.018426 seconds
+Pixels: 249696
+Speed: 13.55 Mpixels/sec
